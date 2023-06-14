@@ -14,7 +14,7 @@ export default function Home(){
 
 const Section = style.section`
     margin: 0.5rem;
-    background-color: #232835;
+    background-color: #76747d;
     border-radius: 1rem;
     height: 100vh;
 `;
