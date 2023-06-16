@@ -28,7 +28,7 @@ export default function NavBar(){
                     </li>
                 </ul>
             </div>
-            <Button text = "Contact"/>
+            <Button text = "contact" blue = {false} />
         </Nav>
     )
 }
