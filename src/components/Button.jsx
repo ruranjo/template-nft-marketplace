@@ -1,7 +1,7 @@
 import React from "react";
 import style from 'styled-components'
 
-export default function Button({text, blue = false }){
+export default function Button({text, blue = false}){
     const btnColor = blue ? "blue" : "";
     return (
         <Div >
@@ -23,9 +23,20 @@ const Div = style.div`
     button:not(.blue) {
         background-color: transparent;
         border: 1px solid white;
+
+        transition: 0.4s ease-in-out;
+        &:hover{
+            background-color: #2d69fd;
+        }
     }
 
     .blue{
         background-color: #2d69fd;
+
+        transition: 0.4s ease-in-out;
+        &:hover{
+            background-color: blue;
+        }
     }
+
 `;

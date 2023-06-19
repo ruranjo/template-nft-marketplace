@@ -28,7 +28,7 @@ export default function NavBar(){
                     </li>
                 </ul>
             </div>
-            <Button text = "contact" blue = {false} />
+            <Button className="contact-botton" text = "contact" blue = {false} />
         </Nav>
     )
 }
@@ -66,5 +66,9 @@ const Nav = style.nav`
                 }
             }
         }
+    }
+
+    .contact-botton:hover{
+
     }
 `;
