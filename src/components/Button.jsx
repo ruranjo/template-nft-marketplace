@@ -32,11 +32,6 @@ const Div = style.div`
 
     .blue{
         background-color: #2d69fd;
-
-        transition: 0.4s ease-in-out;
-        &:hover{
-            background-color: blue;
-        }
     }
 
 `;

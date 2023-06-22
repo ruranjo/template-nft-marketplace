@@ -44,10 +44,11 @@ export default function Home(){
                             </div>
                         </div>
                     </div>
+                    <div className="image">
+                        <img src={hero} alt="hero" />
+                    </div>
                 </div>
-                <div className="image">
-                    <img src={hero} alt="hero" />
-                </div>
+                
             </Section>
         </>
     )
@@ -85,7 +86,7 @@ const Section = style.section`
             padding-right:2rem;
             h1{
                 color:white;
-                font-size:5rem;
+                font-size:2rem;
                 span{
                     .img{
 
