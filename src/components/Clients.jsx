@@ -14,8 +14,8 @@ export default function Clients(){
     return (
         <Section>
             {clients.map((client,index) =>{
-                return <div className="client">
-                        <img src={client} alt="client" />
+                return <div className="client" key={index}>
+                            <img src={client} alt="client" />
                         </div>
             })}
         </Section>
@@ -34,16 +34,3 @@ const Section = style.section`
     }
 `;
 
-/*
-const Section = styled.section`
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 0 2rem;
-  margin-bottom: 5rem;
-  @media screen and (min-width: 280px) and (max-width: 1080px) {
-    flex-direction: column;
-    margin-bottom: 2rem;
-  }
-`;
-*/
