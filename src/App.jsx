@@ -4,6 +4,7 @@ import Home from './components/Home'
 import CreateAndSell from './components/CreateAndSell'
 import Choose from './components/Choose'
 import MarketPlace from './components/MarketPlace'
+import Subcribe from './components/Subcribe'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <CreateAndSell/>
         <Choose/>
         <MarketPlace/>
+        <Subcribe/>
       </div>
     </>
   )
