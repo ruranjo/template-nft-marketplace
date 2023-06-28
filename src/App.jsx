@@ -5,7 +5,7 @@ import CreateAndSell from './components/CreateAndSell'
 import Choose from './components/Choose'
 import MarketPlace from './components/MarketPlace'
 import Subcribe from './components/Subcribe'
-
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -17,6 +17,7 @@ function App() {
         <Choose/>
         <MarketPlace/>
         <Subcribe/>
+        <Footer/>
       </div>
     </>
   )
